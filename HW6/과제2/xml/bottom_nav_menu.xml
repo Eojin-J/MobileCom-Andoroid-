@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_naver"
+        android:icon="@drawable/naver_logo"
+        android:title="@string/title_naver" />
+
+    <item
+        android:id="@+id/navigation_daum"
+        android:icon="@drawable/daum_logo"
+        android:title="@string/title_daum" />
+
+    <item
+        android:id="@+id/navigation_google"
+        android:icon="@drawable/google_logo"
+        android:title="@string/title_google" />
+
+</menu>
