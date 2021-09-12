@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">mobile_HW10_ex3</string>
+    
+    <string-array name="netflix">
+        <item>--항목 선택--</item>
+        <item>로스쿨</item>
+        <item>뤼팽</item>
+        <item>종이의집</item>
+    </string-array>
+</resources>
