@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_base"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:backgroundTint="#D5D5D5"
+        android:text="기준위젯"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="#D5D5D5"
+        android:text="1번"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/btn2"
+        app:layout_constraintEnd_toStartOf="@+id/btn_base"
+        app:layout_constraintTop_toTopOf="@+id/btn_base" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="#D5D5D5"
+        android:text="2번"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/btn3"
+        app:layout_constraintEnd_toStartOf="@+id/btn_base"
+        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="#D5D5D5"
+        android:text="3번"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_base"
+        app:layout_constraintEnd_toStartOf="@+id/btn_base"
+        app:layout_constraintTop_toBottomOf="@+id/btn2" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D5D5D5"
+        android:text="4번"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/btn_base"
+        app:layout_constraintStart_toStartOf="@+id/btn_base" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D5D5D5"
+        android:text="5번"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/btn_base"
+        app:layout_constraintTop_toBottomOf="@+id/btn_base" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D5D5D5"
+        android:text="6번"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/btn_base"
+        app:layout_constraintStart_toEndOf="@+id/btn_base" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
