@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:id="@+id/datePicker1"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:checked="false"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:showText="true"
+        />
+
+    <EditText
+        android:id="@+id/editDiary"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#AFF4FD"
+        android:hint="일기 없음"/>
+
+    <Button
+        android:id="@+id/btnWrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2287D5"
+        android:layout_margin="5dp"
+        android:text="저장"
+        android:textSize="15dp"
+        />
+
+
+</LinearLayout>
